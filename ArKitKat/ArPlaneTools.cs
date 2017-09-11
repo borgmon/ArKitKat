@@ -8,7 +8,7 @@ using UnityEngine.XR.iOS;
 
 namespace ArKitKat
 {
-    public static class ArPlaneTools
+    public class PlaneTools : MonoBehaviour
     {
         public static Vector3 GetRealPosition(ARPlaneAnchor planeAnchor)
         {
@@ -20,8 +20,8 @@ namespace ArKitKat
             parent.transform.rotation = UnityARMatrixOps.GetRotation(planeAnchor.transform);
             anchor.transform.localPosition = new Vector3(planeAnchor.center.x, planeAnchor.center.y, -planeAnchor.center.z);
             Vector3 result = anchor.transform.position;
-            Destory(anchor);
-            Destory(parent);
+            Destroy(anchor);
+            Destroy(parent);
             return result;
             // Vector3 fix = planeAnchor.center;
             // fix = new Vector3(fix.x, fix.y, -fix.z);
