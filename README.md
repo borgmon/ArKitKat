@@ -31,6 +31,12 @@ using ArKitKat;
 |void|VirtualAnchor|string color,Transform|spawn a point in scene |
 |void|VirtualAnchor|string color,Matrix4x4|spawn a point in scene |
 
+### VerticalPlaneDetection
+> A implement of ArKitKat. Generate vertical plane based on horizontal plane.
+> (Since Arkit not support vertical plane detection yet)
+
+please add UnityARUtility.cs `mf.gameObject.tag = "HoriPlane";` to UpdatePlaneWithAnchorTransform method.
+
 
 ## License
 
