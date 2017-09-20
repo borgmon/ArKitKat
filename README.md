@@ -1,5 +1,5 @@
 # ArKitKat
-A Unity Library for interacting UnityARKitPlugin.
+An Unity Library for interacting UnityARKitPlugin.
 
 ## Usage
 1. First thing first. Drag ArKitKat folder into your assets folder.
