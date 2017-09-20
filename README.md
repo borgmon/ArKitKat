@@ -1,4 +1,6 @@
-# ArKitKat [![bad joke](https://img.shields.io/badge/why%20everybody%20likes%20badge-because%20it's%20cool-brightgreen.svg)](http://borgmon.me)
+# ArKitKat 
+
+[![bad joke](https://img.shields.io/badge/why%20everybody%20likes%20badge-because%20it's%20cool-brightgreen.svg)](http://borgmon.me)
 
 An Unity Library for interacting UnityARKitPlugin.
 
