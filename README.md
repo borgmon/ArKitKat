@@ -1,5 +1,6 @@
 # ArKitKat
-[![bad joke](https://img.shields.io/badge/why%20everybody%20likes%20badge-because%20it's%20cool-brightgreen.svg)
+
+[![bad joke](https://img.shields.io/badge/why%20everybody%20likes%20badge-because%20it's%20cool-brightgreen.svg)\s\s
 An Unity Library for interacting UnityARKitPlugin.
 
 ## Usage
