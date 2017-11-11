@@ -34,12 +34,30 @@ using ArKitKat;
 |void|VirtualAnchor|string color,Transform|spawn a point in scene |
 |void|VirtualAnchor|string color,Matrix4x4|spawn a point in scene |
 
-### VerticalPlaneDetection
-> A implement of ArKitKat. Generate vertical plane based on horizontal plane.
+### VerticalPlaneGenetation
+> An implement of ArKitKat. It generates vertical plane based on horizontal plane.
 > (Since Arkit not support vertical plane detection yet)
 
 please add UnityARUtility.cs `mf.gameObject.tag = "HoriPlane";` to UpdatePlaneWithAnchorTransform method.
 
+### FastDetection
+> This script can detect a plane faster than ever! It uses raw Arkit point to generate plane.
+PRO:
+- Detect a plane in a sec!
+- Using Calculus III!
+
+CON:
+- Only detect one plane
+- If more than one plane exist, it will be broken
+
+If you are looking for something that give you a plane before the stable plane spawn, this is the one. 
+
+### BestFitPlaneDouble/Float
+> Dependency for FastDetection. Found the rust version at [this block] (http://www.ilikebigbits.com/blog/2017/9/24/fitting-a-plane-to-noisy-points-in-3d). I ported to c# version for this project.
+
+You have 2 version to choice. Double(64) and float(32).
+Unity does not provide Vector3 x double number, so if you are using double version,
+**Please download [this lib](https://github.com/sldsmkd/vector3d) and copy to your asset**
 
 ## License
 

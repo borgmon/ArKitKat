@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.XR.iOS;
 using ArKitKat;
 
-public class VerticalPlaneDetection : MonoBehaviour
+public class VerticalPlaneGenetation : MonoBehaviour
 {
     public GameObject verticalPlane;
     private UnityARAnchorManager unityARAnchorManager;
