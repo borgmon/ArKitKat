@@ -42,6 +42,7 @@ please add UnityARUtility.cs `mf.gameObject.tag = "HoriPlane";` to UpdatePlaneWi
 
 ### FastDetection
 > This script can detect a plane faster than ever! It uses raw Arkit point to generate plane.
+
 PRO:
 - Detect a plane in a sec!
 - Using Calculus III!
@@ -53,10 +54,10 @@ CON:
 If you are looking for something that give you a plane before the stable plane spawn, this is the one. 
 
 ### BestFitPlaneDouble/Float
-> Dependency for FastDetection. Found the rust version at [this block] (http://www.ilikebigbits.com/blog/2017/9/24/fitting-a-plane-to-noisy-points-in-3d). I ported to c# version for this project.
+> Dependency for FastDetection. Found the rust version at [this blog](http://www.ilikebigbits.com/blog/2017/9/24/fitting-a-plane-to-noisy-points-in-3d). I ported to c# version for this project.
 
-You have 2 version to choice. Double(64) and float(32).
-Unity does not provide Vector3 x double number, so if you are using double version,
+You have 2 versions to choice. Double(64)precision and float(32)precision.
+Unity does not provide Vector3 x double operation, so if you are using double version,
 **Please download [this lib](https://github.com/sldsmkd/vector3d) and copy to your asset**
 
 ## License
